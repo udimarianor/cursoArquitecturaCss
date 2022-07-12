@@ -1,0 +1,35 @@
+.personas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.persona {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.persona__nombre {
+    margin: 1rem 0;
+    font-family: Pacifico, cursive;
+    color: #8d0606;
+    font-size: 2rem;
+}
+
+.persona__funcion {
+    text-transform: lowercase;
+    color: #595959;
+    font-size: 1.25rem;
+}
+
+.persona__imagen {
+    height: 300px;
+    width: 300px;
+}
+
+.persona__imagen img {
+    border-radius: 100%;
+}
